@@ -33,35 +33,35 @@
 			compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
 			label = "CTRL_Z";
-			bindings = <&kp LCTL(Z)>;
+			bindings = <&kp LCTRL(Z)>;
 		};
 
 		ctrl_x: ctrl_x {
 			compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
 			label = "CTRL_X";
-			bindings = <&kp LCTL(X)>;
+			bindings = <&kp LCTRL(X)>;
 		};
 
 		ctrl_c: ctrl_c {
 			compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
 			label = "CTRL_C";
-			bindings = <&kp LCTL(C)>;
+			bindings = <&kp LCTRL(C)>;
 		};
 
 		ctrl_v: ctrl_v {
 			compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
 			label = "CTRL_V";
-			bindings = <&kp LCTL(V)>;
+			bindings = <&kp LCTRL(V)>;
 		};
 
 		ctrl_bspc: ctrl_bspc {
 			compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
 			label = "CTRL_BSPC";
-			bindings = <&kp LCTL(BSPC)>;
+			bindings = <&kp LCTRL(BSPC)>;
 		};
 
 		home_end: home_end {
