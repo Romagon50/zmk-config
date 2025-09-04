@@ -78,18 +78,26 @@
 			bindings = <&str "git commit -m \"\""> &kp LEFT;
 		};
 
+		git_commit: git_commit {
+			compatible = "zmk,behavior-macro";
+			#binding-cells = <0>;
+			label = "GIT_COMMIT";
+			bindings = <
+				&kp G &kp I &kp T &kp SPC
+				&kp C &kp O &kp M &kp M &kp I &kp T &kp SPC &kp M &kp S &kp G
+				&macro_pause_ms 100
+			>;
+		};
+
 		git_push: git_push {
 			compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
 			label = "GIT_PUSH";
-			bindings = <&str "git push">;
-		};
-
-		semicolon: semicolon {
-			compatible = "zmk,behavior-macro";
-			#binding-cells = <0>;
-			label = "SEMICOLON";
-			bindings = <&kp SEMI &kp SPC>;
+			bindings = <
+				&kp G &kp I &kp T &kp SPC
+				&kp P &kp U &kp S &kp H
+				&macro_pause_ms 100
+			>;
 		};
 	};
 
