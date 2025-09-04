@@ -70,13 +70,6 @@
 			label = "HOME_END";
 			bindings = <&kp HOME &kp END>;
 		};
-		
-		git_commit: git_commit {
-			compatible = "zmk,behavior-macro";
-			#binding-cells = <0>;
-			label = "GIT_COMMIT";
-			bindings = <&str "git commit -m \"\""> &kp LEFT;
-		};
 
 		git_commit: git_commit {
 			compatible = "zmk,behavior-macro";
@@ -97,6 +90,15 @@
 				&kp G &kp I &kp T &kp SPC
 				&kp P &kp U &kp S &kp H
 				&macro_pause_ms 100
+			>;
+		};
+		
+		semicolon: semicolon {
+			compatible = "zmk,behavior-macro";
+			#binding-cells = <0>;
+			label = "SEMICOLON";
+			bindings = <
+				&kp SEMI &kp SPC
 			>;
 		};
 	};
