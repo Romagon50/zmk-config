@@ -78,7 +78,7 @@
 			bindings = <
 				&kp G &kp I &kp T &kp SPC
 				&kp C &kp O &kp M &kp M &kp I &kp T &kp SPC &kp M &kp S &kp G
-				&macro_pause_ms 100
+				&macro_wait_time 100
 			>;
 		};
 
@@ -89,7 +89,7 @@
 			bindings = <
 				&kp G &kp I &kp T &kp SPC
 				&kp P &kp U &kp S &kp H
-				&macro_pause_ms 100
+				&macro_wait_time 100
 			>;
 		};
 		
